@@ -1,0 +1,37 @@
+
+> minimum_wp_example@1.0.0 test C:\dev\eclipse-workspace\minimum_wp_example
+> wdio wdio.conf.js "--spec" "wp"
+
+
+Execution of 1 spec files started at 2019-09-20T10:44:31.337Z
+
+[0-0] RUNNING in chrome - C:\dev\eclipse-workspace\minimum_wp_example\spec\wp.spec.js
+[0-0] Error in "undefined"
+Expected 'Selenium' to contain '(software)'.
+[0-0] FAILED in chrome - C:\dev\eclipse-workspace\minimum_wp_example\spec\wp.spec.js
+
+ "spec" Reporter:
+------------------------------------------------------------------
+[chrome  windows nt #0-0] Spec: C:\dev\eclipse-workspace\minimum_wp_example\spec\wp.spec.js
+[chrome  windows nt #0-0] Running: chrome on windows nt
+[chrome  windows nt #0-0]
+[chrome  windows nt #0-0] Wikipedia main page
+[chrome  windows nt #0-0]    ✓ should have a featured article section
+[chrome  windows nt #0-0]
+[chrome  windows nt #0-0]     should allow searching for Selenium
+[chrome  windows nt #0-0]        ✓ and show the article heading
+[chrome  windows nt #0-0]        ✖ and have the heading contain (software)
+[chrome  windows nt #0-0]
+[chrome  windows nt #0-0] 2 passing (7.3s)
+[chrome  windows nt #0-0] 1 failing
+[chrome  windows nt #0-0]
+[chrome  windows nt #0-0] 1) should allow searching for Selenium and have the heading contain (software)
+[chrome  windows nt #0-0] Expected 'Selenium' to contain '(software)'.
+[chrome  windows nt #0-0] Error: Expected 'Selenium' to contain '(software)'.
+[chrome  windows nt #0-0]     at <Jasmine>
+[chrome  windows nt #0-0]     at <Jasmine>
+[chrome  windows nt #0-0]     at UserContext.<anonymous> (C:\dev\eclipse-workspace\minimum_wp_example\spec\wp.spec.js:33:46)
+
+
+Spec Files:	 0 passed, 1 failed, 1 total (100% completed) in 00:00:17 
+

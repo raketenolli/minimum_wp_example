@@ -29,7 +29,7 @@ var config = {
         browserName: 'chrome',
     }],
 
-    logLevel: 'error', // trace | debug | info | warn | error | silent
+    logLevel: 'silent', // trace | debug | info | warn | error | silent
     bail: 0,
     baseUrl: 'http://localhost',
     waitforTimeout: 10000,
